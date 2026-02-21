@@ -1,0 +1,26 @@
+# Compiled output
+a.out
+*.out
+*.o
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Static / Dynamic libraries
+*.a
+*.so
+
+# Build directories
+build/
+dist/
+
+# VSCode
+.vscode/
+
+# MacOS (just in case)
+.DS_Store
+
+# Backup files
+*~
