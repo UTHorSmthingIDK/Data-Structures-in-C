@@ -14,6 +14,7 @@ I have worked on linked lists, doubly linked lists and a litle bit on the queue
 - **Doubly Linked List** (in progress)
 - **Stack**
 - **Queue** (in progress)
+- **Generic Circular Buffer**
 - **Generic Dynamic Array**
 - **Binary Tree**
 
