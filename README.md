@@ -32,6 +32,9 @@ for example:
 
 ## Specifics about each Data Structure
 
+First there is a malloc wrapper called **mallocW.h** which is currently only used in
+generic_linked_list. In the future you may expect it in other data structures as well.
+
 The **Generic_Dynamic_array** has functions:
 
 - create_gen_dyn_arr -> allocates memory for the generic dynamic array and returns a pointer to it
@@ -85,7 +88,7 @@ how to run:
 ./Stack
 ```
 
-The **Linked_List** has functions:
+The **Generic_Linked_List** has functions:
 
 we have 2 linked lists one, in this section I will explain one of them,
 the other linked list is the same single linked list but without the max_size (it is implemented in a queue, so the queue has the max_size).
@@ -106,6 +109,8 @@ this may not seem very linked list like but I like it so yeah.
 - get_peek -> you get the data of the first node (the node head points to)
 - get_element_index -> you give an index and it returns you the data stored there (the indexing works like get_indexof)
 - get_last_element -> simply gives you the data of the last element, the parsing works just like get_indexof.
+- get_size -> returns you the size of the list. (I recently added a size_t count on the head structure that increments or decrements depending on wether you
+add or remove a node).
 
 in most of these when I say return I usually mean return through the arguments (not using the return command)
 
@@ -121,7 +126,7 @@ how to run:
 ./Linked_List
 ```
 
-I will be adding information for the others as well, yes I know that I sound lazy.
+I will be adding information for the others as well.
 
 ### Future Plans
 
