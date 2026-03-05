@@ -16,7 +16,7 @@ I have worked on linked lists, doubly linked lists and a litle bit on the queue
 - **Queue** (in progress)
 - **Generic Circular Buffer**
 - **Generic Dynamic Array**
-- **Binary Tree**
+- **Binary Tree** (in progress)
 
 ## General Project Structure
 
